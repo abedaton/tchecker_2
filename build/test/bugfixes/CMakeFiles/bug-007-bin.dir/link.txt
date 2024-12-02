@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Wconversion -g -g -ferror-limit=150 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/bug-007-bin.dir/bug-007.cc.o" -o bug-007-bin  ../testutils/libtestutils.a ../../src/libtchecker.a

@@ -1,0 +1,15 @@
+# Example of a system that is unreachable BECAUSE of uncontrollable events
+system:unreachable_uncontrollable_example
+
+clock:1:x
+
+event:a{controllable:false}
+event:b{controllable:true}
+
+process:P
+location:P:l0{initial:}
+location:P:l1{}
+location:P:l2{labels: green}
+
+edge:P:l0:l1:a
+edge:P:l1:l2:b

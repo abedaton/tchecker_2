@@ -1,0 +1,18 @@
+system: example_unreachable_v2
+
+clock:1:x
+
+event:a{controllable:true}
+event:b{controllable:false}    # Uncontrollable event 'b'
+event:c{controllable:false}    # Additional uncontrollable event 'c'
+
+process:P
+location:P:l0{initial:}
+location:P:l1{}
+location:P:l2{labels: green}  # Target location
+location:P:l3{}               # Dead-end location
+
+# Transitions
+edge:P:l0:l1:a{do:x=0}                # Controllable event 'a', resets clock x
+edge:P:l1:l2:b{provided: x < 1}       # Uncontrollable event 'b', must trigger before x == 1 to reach the target
+edge:P:l1:l3:c{provided: x >= 1}      # Uncontrollable event 'c', forces system to dead-end when x >= 1

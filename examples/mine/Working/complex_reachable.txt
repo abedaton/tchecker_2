@@ -1,0 +1,44 @@
+system: ComplexSystemWithLayeredLoops
+
+event: a {controllable: true}
+event: b {controllable: false}
+event: c {controllable: true}
+event: d {controllable: false}
+event: e {controllable: false}
+
+process: P
+location: P:l0 {initial:}
+location: P:l1 {}
+location: P:l2 {}
+location: P:l3 {}
+location: P:l4 {}
+location: P:l5 {}
+location: P:l6 {}
+location: P:l7 {}
+location: P:l8 {}
+location: P:l9 {labels: green}
+location: P:l10 {}
+location: P:l11 {}
+location: P:l12 {}
+
+# Path from initial to attractor
+edge: P:l0:l1:a {}
+edge: P:l1:l2:b {}
+edge: P:l2:l3:c {}
+edge: P:l3:l5:a {}
+edge: P:l5:l9:c {}    # Path to attractor
+
+# Nested loops with controllable and uncontrollable transitions
+edge: P:l3:l4:b {}    # First uncontrollable loop
+edge: P:l4:l2:b {}    # Loops back to l2
+
+edge: P:l5:l6:b {}
+edge: P:l6:l7:d {}
+edge: P:l7:l8:e {}    # Nested uncontrollable loop
+edge: P:l8:l6:d {}    # Loops back to l6
+
+# Loop after attractor
+edge: P:l9:l10:a {}
+edge: P:l10:l11:b {}
+edge: P:l11:l12:d {}
+edge: P:l12:l10:b {}  # End loop after reaching attractor

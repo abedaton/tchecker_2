@@ -9,6 +9,7 @@
 #include <cstdlib>
 #include <memory>
 #include <sstream>
+#include <iostream>
 
 #include "tchecker/expression/expression.hh"
 #include "tchecker/parsing/parsing.hh"
@@ -63,6 +64,10 @@ newline    [\n]
 	// Code run each time ppyylex is called.
 	loc.step();
 %}
+
+"abedaton"     {std::cout << "Hello, I'm Antoine!" << std::endl;
+                return program::parser_t::make_TOK_ABEDATON(loc);}
+
 
 "if"           { return program::parser_t::make_TOK_IF(loc); }
 "end"          { return program::parser_t::make_TOK_END(loc); }

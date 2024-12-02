@@ -1,0 +1,5 @@
+if(EXISTS "/Users/antoinb/Desktop/Tchecker/tchecker/cmake-build-debug/test/unit-tests/unittest-b12d07c_tests.cmake")
+  include("/Users/antoinb/Desktop/Tchecker/tchecker/cmake-build-debug/test/unit-tests/unittest-b12d07c_tests.cmake")
+else()
+  add_test(unittest_NOT_BUILT-b12d07c unittest_NOT_BUILT-b12d07c)
+endif()

@@ -1,0 +1,44 @@
+system: ComplexUnreachableRevised
+
+event: a {controllable: true}
+event: b {controllable: false}
+event: c {controllable: true}
+event: d {controllable: false}
+event: e {controllable: true}
+event: f {controllable: false}
+event: g {controllable: true}
+event: h {controllable: false}
+
+process: P
+location: P:l0 {initial:}
+location: P:l1 {}
+location: P:l2 {}
+location: P:l3 {}
+location: P:l4 {}
+location: P:l5 {}
+location: P:l6 {}
+location: P:l7 {}
+location: P:l8 {}
+location: P:l9 {}
+location: P:l10 {labels: green}  # Target location
+
+# Primary path with loops that appear to reach but are blocked by cycles
+edge: P:l0:l1:a {}
+edge: P:l1:l2:b {}
+edge: P:l2:l3:c {}
+edge: P:l3:l4:b {}            # Branching path with uncontrollable transition
+edge: P:l4:l5:c {}
+edge: P:l5:l6:d {}            # Loop back with uncontrollable transition
+edge: P:l6:l2:b {}            # Uncontrollable cycle that blocks path
+
+# Alternative path with dead ends, looping back
+edge: P:l1:l7:c {}
+edge: P:l7:l8:d {}
+edge: P:l8:l9:g {}
+edge: P:l9:l7:f {}            # Dead-end, returning to loop without reaching `l10`
+
+# Another alternative path leading to more uncontrollable loops
+edge: P:l0:l8:h {}
+edge: P:l8:l3:g {}
+edge: P:l3:l9:e {}
+edge: P:l9:l5:f {}            # Returns to loop via uncontrollable edge

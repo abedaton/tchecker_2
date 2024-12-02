@@ -9,7 +9,7 @@
 %require "3.0.4"
 
 %defines
-%define parser_class_name {parser_t}
+%define api.parser.class {parser_t}
 %define api.namespace {tchecker::parsing::system}
 %define api.prefix {spyy}
 %define api.token.constructor
@@ -60,6 +60,8 @@
 };
 
 
+%token                TOK_ABEDATON        "abedaton"
+%token                TOK_CONTROLLABLE    "controllable"
 
 %token                TOK_CLOCK          "clock"
 %token                TOK_COLON          ":"
@@ -142,7 +144,11 @@ eol_sequence declaration
 
 
 declaration:
-TOK_CLOCK ":" uinteger ":" TOK_ID attr_list end_declaration
+TOK_ABEDATON
+{
+  // No action needed, the printing is done in the lexer
+}
+| TOK_CLOCK ":" uinteger ":" TOK_ID attr_list end_declaration
 {
   auto exist_d = system_declaration->get_clock_declaration($5);
   if (exist_d != nullptr)

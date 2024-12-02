@@ -200,6 +200,11 @@ void system_t::set_committed(tchecker::loc_id_t id,
     _committed[id] = 1;
 }
 
+bool system_t::is_event_controllable(tchecker::event_id_t event_id) const
+{
+    return tchecker::system::system_t::is_event_controllable(event_id);
+}
+
 /*!
  \class synchronizer_t
  \brief Synchronizes a system of timed processes as a system with a unique synchronized process

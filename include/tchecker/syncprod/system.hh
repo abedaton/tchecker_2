@@ -33,6 +33,8 @@ namespace syncprod {
  \brief System of processes
  */
 class system_t : private tchecker::system::system_t, private tchecker::syncprod::labels_t {
+    using tchecker::system::system_t::is_event_controllable;
+
   /*!
    \brief Type of collection of asynchronous edges
    */
@@ -237,6 +239,12 @@ public:
    \return this as a tchecker::system::system_t instance
    */
   inline tchecker::system::system_t const & as_system_system() const { return *this; }
+
+  /*!
+   \brief Accessor
+   \return true if event is controllable, false otherwise
+   */
+  bool is_event_controllable(tchecker::event_id_t event_id) const;
 
 private:
   // Hidden modifiers

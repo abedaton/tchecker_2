@@ -1,0 +1,16 @@
+system:standard_ta
+
+event:a
+event:b
+event:c
+
+process:P1
+location:P1:l0{initial:}
+location:P1:l1{}
+location:P1:l2{}
+location:P1:l3{labels: green}
+edge:P1:l0:l1:a{provided: x <= 5 : do: x = 0}
+edge:P1:l1:l2:b{provided: x >= 3}
+edge:P1:l2:l3:c{provided: x <= 2}
+
+clock:1:x

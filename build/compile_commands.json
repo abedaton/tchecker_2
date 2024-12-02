@@ -1,0 +1,620 @@
+[
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/search_order.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/search_order.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/search_order.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/search_order.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/stats.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/stats.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/stats.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/stats.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/couvreur_scc/graph.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/couvreur_scc/graph.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/couvreur_scc/graph.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/couvreur_scc/graph.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/couvreur_scc/stats.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/couvreur_scc/stats.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/couvreur_scc/stats.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/couvreur_scc/stats.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/covreach/stats.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/covreach/stats.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/covreach/stats.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/covreach/stats.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/ndfs/graph.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/ndfs/graph.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/ndfs/graph.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/ndfs/graph.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/ndfs/stats.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/ndfs/stats.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/ndfs/stats.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/ndfs/stats.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/algorithms/reach/stats.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/reach/stats.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/algorithms/reach/stats.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/algorithms/reach/stats.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/clockbounds/clockbounds.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/clockbounds/clockbounds.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/clockbounds/clockbounds.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/clockbounds/clockbounds.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/clockbounds/solver.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/clockbounds/solver.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/clockbounds/solver.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/clockbounds/solver.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/dbm/db.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/db.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/db.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/dbm/db.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/dbm/dbm.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/dbm.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/dbm.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/dbm/dbm.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/dbm/refdbm.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/refdbm.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/dbm/refdbm.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/dbm/refdbm.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/expression/expression.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/expression/expression.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/expression/expression.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/expression/expression.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/expression/static_analysis.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/expression/static_analysis.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/expression/static_analysis.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/expression/static_analysis.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/expression/type_inference.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/expression/type_inference.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/expression/type_inference.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/expression/type_inference.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/expression/typechecking.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/expression/typechecking.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/expression/typechecking.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/expression/typechecking.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/expression/typed_expression.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/expression/typed_expression.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/expression/typed_expression.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/expression/typed_expression.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/fsm/state.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/state.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/state.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/fsm/state.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/fsm/transition.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/transition.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/transition.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/fsm/transition.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/fsm/fsm.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/fsm.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/fsm/fsm.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/fsm/fsm.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/graph/edge.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/graph/edge.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/graph/edge.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/graph/edge.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/graph/node.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/graph/node.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/graph/node.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/graph/node.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/graph/output.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/graph/output.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/graph/output.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/graph/output.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/basictypes.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/basictypes.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/basictypes.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/basictypes.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/parsing/declaration.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/parsing/declaration.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/parsing/declaration.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/parsing/declaration.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/path.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/path.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/path.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/path.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/refzg.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/refzg.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/refzg.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/refzg.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/semantics.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/semantics.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/semantics.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/semantics.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/state.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/state.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/state.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/state.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/transition.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/transition.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/transition.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/transition.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/refzg/zone.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/zone.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/refzg/zone.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/refzg/zone.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/clock_updates.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/clock_updates.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/clock_updates.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/clock_updates.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/statement.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/statement.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/statement.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/statement.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/static_analysis.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/static_analysis.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/static_analysis.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/static_analysis.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/type_inference.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/type_inference.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/type_inference.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/type_inference.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/typechecking.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/typechecking.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/typechecking.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/typechecking.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/statement/typed_statement.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/statement/typed_statement.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/statement/typed_statement.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/statement/typed_statement.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/edges_iterators.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/edges_iterators.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/edges_iterators.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/edges_iterators.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/label.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/label.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/label.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/label.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/state.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/state.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/state.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/state.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/syncprod.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/syncprod.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/syncprod.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/syncprod.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/system.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/system.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/system.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/system.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/transition.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/transition.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/transition.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/transition.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/vedge.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/vedge.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/vedge.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/vedge.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/syncprod/vloc.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/vloc.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/syncprod/vloc.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/syncprod/vloc.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/attribute.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/attribute.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/attribute.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/attribute.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/clock.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/clock.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/clock.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/clock.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/edge.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/edge.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/edge.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/edge.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/event.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/event.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/event.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/event.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/intvar.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/intvar.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/intvar.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/intvar.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/loc.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/loc.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/loc.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/loc.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/output.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/output.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/output.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/output.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/process.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/process.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/process.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/process.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/static_analysis.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/static_analysis.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/static_analysis.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/static_analysis.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/synchronization.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/synchronization.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/synchronization.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/synchronization.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/system/system.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/system/system.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/system/system.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/system/system.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/ta/state.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/ta/state.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/ta/state.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/ta/state.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/ta/static_analysis.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/ta/static_analysis.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/ta/static_analysis.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/ta/static_analysis.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/ta/system.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/ta/system.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/ta/system.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/ta/system.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/ta/ta.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/ta/ta.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/ta/ta.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/ta/ta.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/ta/transition.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/ta/transition.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/ta/transition.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/ta/transition.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/utils/bitset.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/utils/bitset.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/utils/bitset.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/utils/bitset.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/utils/hashtable.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/utils/hashtable.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/utils/hashtable.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/utils/hashtable.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/utils/iterator.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/utils/iterator.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/utils/iterator.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/utils/iterator.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/utils/log.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/utils/log.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/utils/log.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/utils/log.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/utils/string.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/utils/string.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/utils/string.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/utils/string.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/variables/access.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/variables/access.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/variables/access.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/variables/access.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/variables/clocks.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/variables/clocks.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/variables/clocks.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/variables/clocks.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/variables/intvars.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/variables/intvars.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/variables/intvars.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/variables/intvars.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/variables/static_analysis.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/variables/static_analysis.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/variables/static_analysis.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/variables/static_analysis.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/variables/variables.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/variables/variables.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/variables/variables.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/variables/variables.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/waiting/waiting.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/waiting/waiting.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/waiting/waiting.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/waiting/waiting.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/vm/compilers.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/vm/compilers.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/vm/compilers.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/vm/compilers.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/vm/vm.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/vm/vm.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/vm/vm.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/vm/vm.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/extrapolation.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/extrapolation.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/extrapolation.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/extrapolation.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/path.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/path.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/path.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/path.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/semantics.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/semantics.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/semantics.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/semantics.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/state.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/state.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/state.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/state.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/transition.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/transition.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/transition.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/transition.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/zg.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/zg.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/zg.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/zg.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/libtchecker_static.dir/zg/zone.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/zg/zone.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/zg/zone.cc",
+  "output": "src/CMakeFiles/libtchecker_static.dir/zg/zone.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-liveness.dir/tck-liveness/tck-liveness.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/tck-liveness.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/tck-liveness.cc",
+  "output": "src/CMakeFiles/tck-liveness.dir/tck-liveness/tck-liveness.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-liveness.dir/tck-liveness/zg-couvscc.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/zg-couvscc.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/zg-couvscc.cc",
+  "output": "src/CMakeFiles/tck-liveness.dir/tck-liveness/zg-couvscc.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-liveness.dir/tck-liveness/zg-ndfs.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/zg-ndfs.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-liveness/zg-ndfs.cc",
+  "output": "src/CMakeFiles/tck-liveness.dir/tck-liveness/zg-ndfs.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-reach.dir/tck-reach/concur19.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/concur19.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/concur19.cc",
+  "output": "src/CMakeFiles/tck-reach.dir/tck-reach/concur19.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-reach.dir/tck-reach/tck-reach.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/tck-reach.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/tck-reach.cc",
+  "output": "src/CMakeFiles/tck-reach.dir/tck-reach/tck-reach.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-reach.dir/tck-reach/zg-covreach.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/zg-covreach.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/zg-covreach.cc",
+  "output": "src/CMakeFiles/tck-reach.dir/tck-reach/zg-covreach.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-reach.dir/tck-reach/zg-reach.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/zg-reach.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/zg-reach.cc",
+  "output": "src/CMakeFiles/tck-reach.dir/tck-reach/zg-reach.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-syntax.dir/tck-syntax/syntax-check.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-syntax/syntax-check.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-syntax/syntax-check.cc",
+  "output": "src/CMakeFiles/tck-syntax.dir/tck-syntax/syntax-check.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-syntax.dir/tck-syntax/tck-syntax.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-syntax/tck-syntax.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-syntax/tck-syntax.cc",
+  "output": "src/CMakeFiles/tck-syntax.dir/tck-syntax/tck-syntax.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-simulate.dir/tck-simulate/display.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/display.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/display.cc",
+  "output": "src/CMakeFiles/tck-simulate.dir/tck-simulate/display.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-simulate.dir/tck-simulate/graph.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/graph.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/graph.cc",
+  "output": "src/CMakeFiles/tck-simulate.dir/tck-simulate/graph.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-simulate.dir/tck-simulate/simulate.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/simulate.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/simulate.cc",
+  "output": "src/CMakeFiles/tck-simulate.dir/tck-simulate/simulate.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-simulate.dir/tck-simulate/tck-simulate.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/tck-simulate.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-simulate/tck-simulate.cc",
+  "output": "src/CMakeFiles/tck-simulate.dir/tck-simulate/tck-simulate.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src",
+  "command": "/usr/bin/clang++ -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_NO_LIB -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -isystem /opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/tck-game-reach.dir/tck-reach/tck-game-reach.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/tck-game-reach.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach/tck-game-reach.cc",
+  "output": "src/CMakeFiles/tck-game-reach.dir/tck-reach/tck-game-reach.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/program_parsing_static.dir/program.tab.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser/program.tab.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser/program.tab.cc",
+  "output": "src/parsing/program_parser/CMakeFiles/program_parsing_static.dir/program.tab.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/program_parsing_static.dir/program.lex-fixed.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser/program.lex-fixed.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/program_parser/program.lex-fixed.cc",
+  "output": "src/parsing/program_parser/CMakeFiles/program_parsing_static.dir/program.lex-fixed.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/system_parsing_static.dir/system.tab.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser/system.tab.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser/system.tab.cc",
+  "output": "src/parsing/system_parser/CMakeFiles/system_parsing_static.dir/system.tab.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include  -Wall -g -g3 -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/system_parsing_static.dir/system.lex-fixed.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser/system.lex-fixed.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/build/src/parsing/system_parser/system.lex-fixed.cc",
+  "output": "src/parsing/system_parser/CMakeFiles/system_parsing_static.dir/system.lex-fixed.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/test/testutils",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -I/Users/antoinb/Desktop/Tchecker/tchecker/test  -Wall -Wextra -Wconversion -g -g -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/testutils.dir/utils.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/test/testutils/utils.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/test/testutils/utils.cc",
+  "output": "test/testutils/CMakeFiles/testutils.dir/utils.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/test/unit-tests",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -I/Users/antoinb/Desktop/Tchecker/tchecker/test -I/Users/antoinb/Desktop/Tchecker/tchecker/test/testutils -I/Users/antoinb/Desktop/Tchecker/tchecker/test/unit-tests -isystem /opt/homebrew/include  -Wall -Wextra -Wconversion -g -g -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/unittest.dir/unittest.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/test/unit-tests/unittest.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/test/unit-tests/unittest.cc",
+  "output": "test/unit-tests/CMakeFiles/unittest.dir/unittest.cc.o"
+},
+{
+  "directory": "/Users/antoinb/Desktop/Tchecker/tchecker/build/test/bugfixes",
+  "command": "/usr/bin/clang++  -I/Users/antoinb/Desktop/Tchecker/tchecker/src/../include -I/Users/antoinb/Desktop/Tchecker/tchecker/build/src/../include -I/opt/homebrew/include -I/Users/antoinb/Desktop/Tchecker/tchecker/src/tck-reach -I/Users/antoinb/Desktop/Tchecker/tchecker/test -I/Users/antoinb/Desktop/Tchecker/tchecker/test/testutils  -Wall -Wextra -Wconversion -g -g -ferror-limit=150 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/bug-007-bin.dir/bug-007.cc.o -c /Users/antoinb/Desktop/Tchecker/tchecker/test/bugfixes/bug-007.cc",
+  "file": "/Users/antoinb/Desktop/Tchecker/tchecker/test/bugfixes/bug-007.cc",
+  "output": "test/bugfixes/CMakeFiles/bug-007-bin.dir/bug-007.cc.o"
+}
+]

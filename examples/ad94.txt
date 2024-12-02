@@ -12,6 +12,8 @@ event:b
 event:c
 event:d
 
+abedaton
+
 process:P
 location:P:l0{initial:}
 location:P:l1{}

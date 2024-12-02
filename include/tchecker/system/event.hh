@@ -31,6 +31,18 @@ namespace system {
  */
 class events_t {
 public:
+
+
+  /*!
+   \brief Constructor
+   \param name : event name
+   \param id : event identifier
+   \param attributes : event attributes
+   */
+  void add_event(std::string const & name, tchecker::event_id_t id, tchecker::system::attributes_t const & attributes);
+
+
+
   /*!
    \brief Add an event
    \param name : event name
@@ -98,7 +110,26 @@ public:
    */
   bool is_event(std::string const & event) const;
 
+  /*!
+   \brief Accessor
+   \return true if the event is controllable, false otherwise
+  */
+  bool is_controllable() const;
+
+  /*!
+   \brief Check if an event is controllable
+   \param id : event identifier
+   \return true if the event is controllable, false otherwise
+   \throw std::invalid_argument : if id is not a valid event identifier
+  */
+  bool is_controllable(tchecker::event_id_t id) const;
+
 private:
+  std::string _name;
+  tchecker::event_id_t _id;
+  tchecker::system::attributes_t _attributes;
+  bool _controllable;
+  
   std::vector<tchecker::system::attributes_t> _events_attributes;     /*!< Events attributes */
   tchecker::index_t<std::string, tchecker::event_id_t> _events_index; /*!< Map event name <-> event identifier */
 };

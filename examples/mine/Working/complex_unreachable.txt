@@ -1,0 +1,33 @@
+system: ComplexUnreachablePaths_Revised
+
+event: a {controllable: true}
+event: b {controllable: false}
+event: c {controllable: false}
+event: d {controllable: false}
+event: e {controllable: true}
+event: f {controllable: false}
+event: g {controllable: false}
+
+process: P
+location: P:l0 {initial:}
+location: P:l1 {}
+location: P:l2 {}
+location: P:l3 {}
+location: P:l4 {}
+location: P:l5 {}
+location: P:l6 {}
+location: P:l7 {}
+location: P:l8 {labels: green}
+
+edge: P:l0:l1:a {}           # start controlled path
+edge: P:l1:l2:b {}           # uncontrollable (trap potential)
+edge: P:l2:l3:c {}           # uncontrollable to another trap
+edge: P:l3:l4:d {}           # uncontrollable further from green
+edge: P:l4:l5:e {}           # uncontrollable back to start
+edge: P:l5:l2:g {}           # uncontrollable to form a full cycle
+
+edge: P:l2:l6:e {}           # optional controlled path that leads to a loop
+edge: P:l6:l7:f {}           # uncontrollable trap leading away from green
+edge: P:l7:l5:g {}           # uncontrollable cycle reinforcing no path to green
+
+# Revised expectation: Unreachable due to strong uncontrollable cycles that redirect away from green

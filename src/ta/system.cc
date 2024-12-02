@@ -302,6 +302,11 @@ void system_t::set_statements(tchecker::edge_id_t id,
   }
 }
 
+bool tchecker::ta::system_t::is_event_controllable(tchecker::event_id_t event_id) const
+{
+    return tchecker::syncprod::system_t::is_event_controllable(event_id);
+}
+
 } // end of namespace ta
 
 } // end of namespace tchecker

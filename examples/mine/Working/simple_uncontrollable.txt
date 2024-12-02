@@ -1,0 +1,17 @@
+# Should be: unreachable
+# Is: unreachable
+system: SimpleUncontrollableEscape
+
+event: a {controllable: true}
+event: b {controllable: false}
+event: c {controllable: false}
+
+process: P
+location: P:l0 {initial:}
+location: P:l1 {}
+location: P:l2 {labels: green}
+location: P:l3 {}
+
+edge: P:l0:l1:a {}
+edge: P:l1:l3:b {}  
+edge: P:l3:l2:c {}

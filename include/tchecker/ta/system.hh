@@ -37,7 +37,7 @@ namespace ta {
  \class system_t
  \brief System of processes for timed automata
  */
-class system_t : private tchecker::syncprod::system_t {
+class system_t : public tchecker::syncprod::system_t, private tchecker::syncprod::labels_t {
 public:
   /*!
    \brief Constructor
@@ -238,6 +238,15 @@ public:
    \return this as a tchecker::syncprod::system_t instance
    */
   constexpr inline tchecker::syncprod::system_t const & as_syncprod_system() const { return *this; }
+
+  /*!
+   \brief Check if an event is controllable
+   \param event_id : event identifier
+   \return true if the event is controllable, false otherwise
+   \throw std::invalid_argument : if event_id is not a valid event identifier
+  */
+  bool is_event_controllable(tchecker::event_id_t event_id) const;
+
 
 private:
   /*!

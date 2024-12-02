@@ -1,0 +1,42 @@
+2024-09-18T15:15:12+02:00; Info;		snowagent; nix/main.cpp; main; Running as super user.
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; AddRegidFoldersToScanDirectorys; Added directory [/Library/Application Support/regid.1986-12.com.adobe/] to ScanDirectories.
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/net/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/panfs/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/tmp/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/boot/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/include/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/share/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/src/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/var/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.MobileBackups/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Spotlight-V100/]
+2024-09-18T15:15:12+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Trashes/]
+2024-09-18T15:15:12+02:00; ERROR;		snowagent; nix/main.cpp; main; Another process have acquired exclusive lock for this action/scope (wait until the other process finishes and try again)
+2024-09-18T15:15:14+02:00; Info;		snowagent; nix/main.cpp; main; Running as super user.
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; AddRegidFoldersToScanDirectorys; Added directory [/Library/Application Support/regid.1986-12.com.adobe/] to ScanDirectories.
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/net/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/panfs/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/tmp/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/boot/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/include/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/share/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/src/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/var/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.MobileBackups/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Spotlight-V100/]
+2024-09-18T15:15:14+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Trashes/]
+2024-09-18T15:15:14+02:00; ERROR;		snowagent; nix/main.cpp; main; Another process have acquired exclusive lock for this action/scope (wait until the other process finishes and try again)
+2024-09-18T15:15:25+02:00; Info;		snowagent; nix/main.cpp; main; Running as super user.
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; AddRegidFoldersToScanDirectorys; Added directory [/Library/Application Support/regid.1986-12.com.adobe/] to ScanDirectories.
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/net/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/panfs/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/tmp/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/boot/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/include/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/share/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/usr/src/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/var/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.MobileBackups/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Spotlight-V100/]
+2024-09-18T15:15:25+02:00; Verbose;		snowagent; nix/AppSettings.cpp; add_skip_path; Adding skip path/pattern: [/.Trashes/]
+2024-09-18T15:15:25+02:00; ERROR;		snowagent; nix/main.cpp; main; Another process have acquired exclusive lock for this action/scope (wait until the other process finishes and try again)

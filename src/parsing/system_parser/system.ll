@@ -70,6 +70,10 @@ newline    [\n]
 %}
 
 
+"abedaton"     {  std::cout << "Hello, I'm Antoine!" << std::endl;
+                  return system::parser_t::make_TOK_ABEDATON(loc);}
+"controllable"   { return tchecker::parsing::system::parser_t::make_TOK_CONTROLLABLE(loc); }
+
 "#"            { BEGIN COMMENT; }
 ":"            { return system::parser_t::make_TOK_COLON(loc); }
 "@"            { return system::parser_t::make_TOK_AT(loc); }
@@ -90,6 +94,8 @@ newline    [\n]
 {blankspace}+  { loc.step(); }
 {newline}+     { loc.lines(static_cast<int>(spyyleng)); loc.step();
                  return system::parser_t::make_TOK_EOL(loc); }
+
+
 
 <<EOF>>        { return system::parser_t::make_TOK_EOF(loc); }
 

@@ -733,6 +733,8 @@ public:
                      std::shared_ptr<tchecker::parsing::location_declaration_t const> const & tgt,
                      std::shared_ptr<tchecker::parsing::event_declaration_t const> const & event,
                      tchecker::parsing::attributes_t const & attr, std::string const & context);
+  
+  bool is_controllable() const { return _controllable; }
 
   /*!
    \brief Copy constructor
@@ -802,6 +804,8 @@ private:
   std::shared_ptr<tchecker::parsing::location_declaration_t const> _src;    /*!< Source loc */
   std::shared_ptr<tchecker::parsing::location_declaration_t const> _tgt;    /*!< Target loc */
   std::shared_ptr<tchecker::parsing::event_declaration_t const> _event;     /*!< Event */
+
+  bool _controllable;
 };
 
 /*!

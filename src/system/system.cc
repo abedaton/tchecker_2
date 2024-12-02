@@ -197,6 +197,11 @@ bool system_t::has_variable(std::string const & name)
   return tchecker::system::clocks_t::is_clock(name) || tchecker::system::intvars_t::is_intvar(name);
 }
 
+bool tchecker::system::system_t::is_event_controllable(tchecker::event_id_t event_id) const
+{
+  return tchecker::system::events_t::is_controllable(event_id);
+}
+
 } // end of namespace system
 
 std::string to_string(tchecker::sync_id_t sync_id, tchecker::system::system_t const & system)

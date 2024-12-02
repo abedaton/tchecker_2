@@ -97,6 +97,8 @@
   old_error_count = tchecker::log_error_count();
 };
 
+%token                TOK_ABEDATON        "abedaton"
+
 
 %token                TOK_ASSIGN            "="
 %token                TOK_LPAR              "("
@@ -194,6 +196,10 @@ sequence_statement
   else
     expr = $1;
   stmt = nullptr;
+}
+| TOK_ABEDATON
+{
+  // No action needed, the printing is done in the lexer
 }
 ;
 

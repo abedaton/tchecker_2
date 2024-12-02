@@ -1,0 +1,15 @@
+system: example_reachable
+
+clock:1:x
+
+event:a{controllable:true}
+event:b{controllable:true}
+
+process:P
+location:P:l0{initial:}
+location:P:l1{}
+location:P:l2{labels: green}
+
+# Transitions
+edge:P:l0:l1:a{do:x=0}             # Controllable event 'a', resets clock x
+edge:P:l1:l2:b{provided: x < 2}    # Controllable event 'b', can trigger if x < 2 (reachable target)

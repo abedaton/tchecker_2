@@ -1,0 +1,5 @@
+# ninja log v6
+7	30	1726494400038164705	src/parsing/program_parser/program.lex.cc	b14ed49693c0fefd
+7	30	1726494400038164705	/Users/antoinb/Desktop/Tchecker/tchecker/cmake-build-debug/src/parsing/program_parser/program.lex.cc	b14ed49693c0fefd
+8	30	1726494400038238246	src/parsing/system_parser/system.lex.cc	9f37de6acf50cd04
+8	30	1726494400038238246	/Users/antoinb/Desktop/Tchecker/tchecker/cmake-build-debug/src/parsing/system_parser/system.lex.cc	9f37de6acf50cd04

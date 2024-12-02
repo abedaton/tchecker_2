@@ -1,0 +1,666 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-Debug-01d1b592211c3e178180.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-06ebd48ec9879e76dae9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "src/algorithms",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-src.algorithms-Debug-8f95d858efe5cd23f2ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/algorithms"
+				},
+				{
+					"build" : "src/algorithms/couvreur_scc",
+					"jsonFile" : "directory-src.algorithms.couvreur_scc-Debug-ee46e763317694c016c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/algorithms/couvreur_scc"
+				},
+				{
+					"build" : "src/algorithms/covreach",
+					"jsonFile" : "directory-src.algorithms.covreach-Debug-f7443fd9e8c35396c330.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/algorithms/covreach"
+				},
+				{
+					"build" : "src/algorithms/ndfs",
+					"jsonFile" : "directory-src.algorithms.ndfs-Debug-067647b36e8aa175c321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/algorithms/ndfs"
+				},
+				{
+					"build" : "src/algorithms/path",
+					"jsonFile" : "directory-src.algorithms.path-Debug-b2389d3e7bd7650d0e3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/algorithms/path"
+				},
+				{
+					"build" : "src/algorithms/reach",
+					"jsonFile" : "directory-src.algorithms.reach-Debug-c06438c80f3f0829449b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/algorithms/reach"
+				},
+				{
+					"build" : "src/clockbounds",
+					"jsonFile" : "directory-src.clockbounds-Debug-b1de04c317daceea4a41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/clockbounds"
+				},
+				{
+					"build" : "src/dbm",
+					"jsonFile" : "directory-src.dbm-Debug-eb70e9c28e4a3970bdb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/dbm"
+				},
+				{
+					"build" : "src/expression",
+					"jsonFile" : "directory-src.expression-Debug-23fd392154500afb14ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/expression"
+				},
+				{
+					"build" : "src/fsm",
+					"jsonFile" : "directory-src.fsm-Debug-8c7bc0a791cadd7a435b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/fsm"
+				},
+				{
+					"build" : "src/graph",
+					"jsonFile" : "directory-src.graph-Debug-d7c8a5c07ff72fef5dce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/graph"
+				},
+				{
+					"build" : "src/parsing",
+					"childIndexes" : 
+					[
+						15,
+						16
+					],
+					"jsonFile" : "directory-src.parsing-Debug-38b120f485e10216c743.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/parsing"
+				},
+				{
+					"build" : "src/parsing/program_parser",
+					"jsonFile" : "directory-src.parsing.program_parser-Debug-e8873cf5cfb11406787f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "src/parsing/program_parser",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/parsing/system_parser",
+					"jsonFile" : "directory-src.parsing.system_parser-Debug-6203bf41c7af273da9e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "src/parsing/system_parser",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/refzg",
+					"jsonFile" : "directory-src.refzg-Debug-096f68a97c8b5a323117.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/refzg"
+				},
+				{
+					"build" : "src/statement",
+					"jsonFile" : "directory-src.statement-Debug-5c6fe1f4038d889992d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/statement"
+				},
+				{
+					"build" : "src/syncprod",
+					"jsonFile" : "directory-src.syncprod-Debug-adc8d06eaf86cc669a72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/syncprod"
+				},
+				{
+					"build" : "src/system",
+					"jsonFile" : "directory-src.system-Debug-a3eaf2da8cce53751c54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/system"
+				},
+				{
+					"build" : "src/ta",
+					"jsonFile" : "directory-src.ta-Debug-a8591619bdaee0f0623a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/ta"
+				},
+				{
+					"build" : "src/ts",
+					"jsonFile" : "directory-src.ts-Debug-9187467ce18be1ce9c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/ts"
+				},
+				{
+					"build" : "src/utils",
+					"jsonFile" : "directory-src.utils-Debug-3e06762d87894fb62125.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/utils"
+				},
+				{
+					"build" : "src/variables",
+					"jsonFile" : "directory-src.variables-Debug-6ea931e2c29e0b03f092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/variables"
+				},
+				{
+					"build" : "src/vm",
+					"jsonFile" : "directory-src.vm-Debug-a2c0fe3583aaae8256c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/vm"
+				},
+				{
+					"build" : "src/waiting",
+					"jsonFile" : "directory-src.waiting-Debug-4e11f964a86311114fcc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/waiting"
+				},
+				{
+					"build" : "src/zg",
+					"jsonFile" : "directory-src.zg-Debug-c6cf42fcd609c93e4e26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/zg"
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						29,
+						30,
+						31,
+						32,
+						33
+					],
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "test/testutils",
+					"jsonFile" : "directory-test.testutils-Debug-0551065d2957aeed5e38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "test/testutils",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "test/unit-tests",
+					"jsonFile" : "directory-test.unit-tests-Debug-5e0fa1fc6e8333b9a592.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "test/unit-tests",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "test/bugfixes",
+					"jsonFile" : "directory-test.bugfixes-Debug-718feedc9e48842d828c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "test/bugfixes",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "test/simple-nr",
+					"jsonFile" : "directory-test.simple-nr-Debug-200b0bd9226a9e6444fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "test/simple-nr",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "test/algos",
+					"jsonFile" : "directory-test.algos-Debug-877b6c6a7f19a3808219.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 0,
+					"source" : "test/algos",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
+					],
+					"name" : "tchecker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 31,
+					"id" : "bug-007-bin::@955e17829719a7f40406",
+					"jsonFile" : "target-bug-007-bin-Debug-553c39d78dfaf770a598.json",
+					"name" : "bug-007-bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-doc-Debug-904f5c3cc34dd8725938.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libtchecker_static::@145eef247bfb46b6828c",
+					"jsonFile" : "target-libtchecker_static-Debug-ff8cbce7bb90d7936f04.json",
+					"name" : "libtchecker_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "program_parsing_static::@d09cab006f84748c9685",
+					"jsonFile" : "target-program_parsing_static-Debug-921e90b0b724ad1deeba.json",
+					"name" : "program_parsing_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "save::@36f028580bb02cc8272a",
+					"jsonFile" : "target-save-Debug-6b98ca0bffcb6c508e43.json",
+					"name" : "save",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "save-algos::@4fa90dd8344e7c115c0b",
+					"jsonFile" : "target-save-algos-Debug-2f934ac5e2a8583c2094.json",
+					"name" : "save-algos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "save-bugfixes::@955e17829719a7f40406",
+					"jsonFile" : "target-save-bugfixes-Debug-1f08913cadeba6d98902.json",
+					"name" : "save-bugfixes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "save-simple-nr::@26304c3f86b094eca25b",
+					"jsonFile" : "target-save-simple-nr-Debug-7a38e11523f74eddef30.json",
+					"name" : "save-simple-nr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "system_parsing_static::@8775425ffc46424473ce",
+					"jsonFile" : "target-system_parsing_static-Debug-3782629f8607ab90abc4.json",
+					"name" : "system_parsing_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tck-game-reach::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tck-game-reach-Debug-2e88a73347cfea97a821.json",
+					"name" : "tck-game-reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tck-liveness::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tck-liveness-Debug-2f8ebf1197590d88cbca.json",
+					"name" : "tck-liveness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tck-reach::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tck-reach-Debug-5cb915d83a0f46c2bada.json",
+					"name" : "tck-reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tck-simulate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tck-simulate-Debug-d3a97ca905c92beaa8c7.json",
+					"name" : "tck-simulate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tck-syntax::@145eef247bfb46b6828c",
+					"jsonFile" : "target-tck-syntax-Debug-3164681f5ef930ff843f.json",
+					"name" : "tck-syntax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "testutils::@8edef4a600a822f3d6e8",
+					"jsonFile" : "target-testutils-Debug-1197617a5dd51b190f3a.json",
+					"name" : "testutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "unittest::@444abb8efa588087ef02",
+					"jsonFile" : "target-unittest-Debug-307eab31f3a428f12281.json",
+					"name" : "unittest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/antoinb/Desktop/Tchecker/tchecker/build",
+		"source" : "/Users/antoinb/Desktop/Tchecker/tchecker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

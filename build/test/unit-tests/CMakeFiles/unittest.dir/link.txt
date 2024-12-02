@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Wconversion -g -g -ferror-limit=150 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/unittest.dir/unittest.cc.o -o unittest  ../testutils/libtestutils.a ../../src/libtchecker.a /opt/homebrew/lib/libCatch2Main.a /opt/homebrew/lib/libCatch2.a

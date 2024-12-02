@@ -209,6 +209,14 @@ public:
   using tchecker::system::synchronizations_t::synchronizations_count;
   using tchecker::system::synchronizations_t::synchronizations_identifiers;
 
+  /*!
+   \brief Check if an event is controllable
+   \param event_id : event identifier
+   \return true if the event is controllable, false otherwise
+   \throw std::invalid_argument : if event_id is not a valid event identifier
+  */
+  bool is_event_controllable(tchecker::event_id_t event_id) const;
+
 private:
   /*!
    \brief Check existence of variable

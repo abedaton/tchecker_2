@@ -1,0 +1,21 @@
+system: controllability_test_with_uncontrollable
+
+clock:1:x
+clock:1:y
+
+event:a{controllable:true}
+event:b{controllable:false}    # Marked as uncontrollable
+event:c{controllable:true}
+event:d{controllable:true}
+
+process:P
+location:P:l0{initial:}
+location:P:l1{}
+location:P:l2{}
+location:P:l3{labels: green}  # Target location
+
+# Transitions
+edge:P:l0:l1:a{do:x=0}              # Move from l0 to l1, reset clock x
+edge:P:l1:l2:b{provided: x < 2}     # Move from l1 to l2, but b is now uncontrollable
+edge:P:l2:l3:c{provided: y < 3}     # Move from l2 to l3 (target) if y < 3
+edge:P:l1:l0:d{}                    # Move back from l1 to l0 (if no uncontrollable event)

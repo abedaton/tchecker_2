@@ -1,0 +1,31 @@
+system:upaal_tiga
+
+clock:1:x
+event:c1{controllable:true}
+event:c2{controllable:true}
+event:c3{controllable:true}
+event:c4{controllable:true}
+
+event:u1{controllable:false}
+event:u2{controllable:false}
+event:u3{controllable:false}
+
+process:P
+location:P:l1{initial:}
+location:P:l2{}
+location:P:l3{}
+location:P:l4{}
+location:P:l5{}
+
+location:P:l6{labels: green}
+
+edge:P:l1:l2:c1{provided: x<=1}
+edge:P:l1:l3:u2{provided: x<1 : do: x=0}
+edge:P:l1:l5:u1{provided: x>1}
+
+edge:P:l2:l3:u3{provided: x<1}
+edge:P:l2:l6:c2{provided: x>=2}
+
+edge:P:l3:l4:c3{}
+
+edge:P:l4:l2:c4{provided: x<=1}

@@ -2,6 +2,13 @@
 #
 # See files AUTHORS and LICENSE for copyright details.
 
+cmake_minimum_required(VERSION 3.20)  # Adjust this to your minimum required CMake version
+
+# Set the new policy to NEW behavior
+if(POLICY CMP0167)
+  cmake_policy(SET CMP0167 NEW)
+endif()
+
 set(Boost_USE_STATIC_LIBS        ON)  # only find static libs
 set(Boost_USE_DEBUG_LIBS        OFF)  # ignore debug libs and
 set(Boost_USE_RELEASE_LIBS       ON)  # only find release libs
@@ -157,6 +164,26 @@ target_link_libraries(tck-simulate libtchecker_static ${Boost_LIBRARIES})
 set_property(TARGET tck-simulate PROPERTY CXX_STANDARD 17)
 set_property(TARGET tck-simulate PROPERTY CXX_STANDARD_REQUIRED ON)
 
+# Assuming zg-tgreach.cc and tck-game-reach.cc are part of a new executable called tck-game-reach
+
+# Add the new source files to the list of sources
+set(GAME_REACH_SRC
+  ${CMAKE_CURRENT_SOURCE_DIR}/tck-reach/tck-game-reach.cc
+)
+
+# Include the header files directory
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/tck-reach)
+
+# Build the new executable
+add_executable(tck-game-reach ${GAME_REACH_SRC})
+target_link_libraries(tck-game-reach libtchecker_static ${Boost_LIBRARIES})
+set_property(TARGET tck-game-reach PROPERTY CXX_STANDARD 17)
+set_property(TARGET tck-game-reach PROPERTY CXX_STANDARD_REQUIRED ON)
+
+# Optionally, you can organize source files in the IDE (like Visual Studio or Xcode)
+source_group("Game Reach" FILES ${GAME_REACH_SRC})
+
+
 # Project view in IDEs (Xcode, etc)
 foreach(FILE ${LIBTCHECKER_SRC})
   # Get the directory of the source file
@@ -177,7 +204,7 @@ foreach(FILE ${LIBTCHECKER_SRC})
 endforeach()
 
 # Install rule for binaries, lib and header files
-install(TARGETS tck-liveness tck-reach tck-simulate tck-syntax libtchecker_static
+install(TARGETS tck-liveness tck-reach tck-simulate tck-syntax libtchecker_static tck-game-reach
   RUNTIME DESTINATION bin
   ARCHIVE DESTINATION lib)
 

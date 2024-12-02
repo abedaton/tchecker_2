@@ -39,6 +39,35 @@ bool events_t::is_event(std::string const & event) const
   return _events_index.find_key(event) != _events_index.end_key_map();
 }
 
+void tchecker::system::events_t::add_event(std::string const & name, tchecker::event_id_t id, tchecker::system::attributes_t const & attributes)
+{
+  if (is_event(name))
+    throw std::invalid_argument("Event " + name + " already exists");
+
+  if (id != _events_attributes.size())
+    throw std::invalid_argument("Invalid event id");
+
+  _events_index.add(name, id);
+  _events_attributes.push_back(attributes);
+}
+
+bool tchecker::system::events_t::is_controllable(tchecker::event_id_t id) const
+{
+  if (!is_event(id))
+    throw std::invalid_argument("Invalid event id");
+
+  auto const & attributes = _events_attributes[id];
+  auto range = attributes.range("controllable");
+  
+  for (auto it = range.begin(); it != range.end(); ++it) {
+    if ((*it).value() == "true") {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
 } // end of namespace system
 
 } // end of namespace tchecker

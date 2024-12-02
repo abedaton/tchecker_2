@@ -283,6 +283,16 @@ edge_declaration_t::edge_declaration_t(std::shared_ptr<tchecker::parsing::proces
 
   if (_tgt->process().name() != _process->name())
     throw std::invalid_argument("error, edge declaration has target location does not belong to process");
+
+  // Check if the edge is controllable based on the event's attributes
+  _controllable = false;
+  auto event_attrs = event->attributes();
+  for (const auto& attr : event_attrs.attributes()) {
+    if (attr.key() == "controllable" && attr.value() == "true") {
+      _controllable = true;
+      break;
+    }
+  }
 }
 
 edge_declaration_t::edge_declaration_t(tchecker::parsing::edge_declaration_t const &) = default;

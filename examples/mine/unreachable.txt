@@ -1,0 +1,13 @@
+system:unreachable
+
+event:a{controllable:true}
+event:b{controllable:false}
+
+process:P
+location:P:l0{initial:}
+location:P:l1{labels: green}
+location:P:l2{}
+
+edge:P:l0:l1:a{}
+edge:P:l0:l2:b{}
+edge:P:l2:l2:b{}
